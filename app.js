@@ -67,6 +67,7 @@ app.get('/getcustomerinfo', upload.any(), function(req , res){
     })
 })
 
+
 //upload excel file
 app.post('/upload', upload.any(), function(req , res){
     var exceltojson;
